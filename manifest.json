@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "Shorten URL",
+  "description": "This extension could help you to shorten URL",
+  "version": "0.1.1",
+  "icons": {"128": "images/shortenURL128.png"},
+
+  "permissions": [
+    "http://dwz.cn/",
+    "http://jump.sinaapp.com/"
+  ],
+  "browser_action": {
+    "default_icon": "images/shortenURL.png",
+    "default_popup": "images/shortenURL.html"
+  }
+}

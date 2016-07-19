@@ -1,0 +1,36 @@
+/*
+* @Author: Administrator
+* @Date:   2016-07-19 12:42:36
+* @Last Modified by:   Administrator
+* @Last Modified time: 2016-07-19 19:28:28
+*/
+body{
+    box-sizing: border-box;
+}
+section{
+    width: 230px;
+    padding: 10px 20px;
+    font-size: 10px;
+}
+section form{
+    /*color: #fff;*/
+    font-size: 12px;
+    font-family: "Microsoft Yahei";
+}
+form div{
+    margin: 5px 0;
+    overflow: hidden;
+}
+form #apiChoose{
+    float: right;
+    width: 173px;
+    margin-right: 5px;
+    padding: 2px;
+}
+form button{
+    width: 100%;
+    border: none;
+    padding: 4px 0;
+    color: #fff;
+    background-color: #5bc0de;
+}

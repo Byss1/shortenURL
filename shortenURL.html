@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- saved from url=(0014)about:internet -->
+  <meta name="render" content="webkit" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+  <title>shortenURL</title>
+  <link rel="stylesheet" href="css/shortenURL.css">
+</head>
+<body>
+  <section>
+    <form>
+      <div class="getURL">
+        <label for="getURL">长网址：</label>
+        <input type="text" id="getURL">
+      </div>
+      <div class="responseURL">
+        <label for="responseURL">短网址：</label>
+        <input type="text" id="responseURL">
+      </div>
+      <div>
+        <select name="" id="apiChoose">
+          <option value="baidu">百度短网址API</option>
+          <option value="sinaapp">新浪短网址API</option>
+        </select>
+        <label for="apiChoose">API：</label>
+      </div>
+      <button type="button" id="confirm">缩短网址</button>
+    </form>
+  </section>
+  <script src="js/jquery-1.12.4.min.js"></script>
+  <script src="js/shortenURL.js"></script>
+</body>
+</html>
