@@ -2,7 +2,7 @@
 * @Author: Administrator
 * @Date:   2016-07-19 12:42:36
 * @Last Modified by:   Administrator
-* @Last Modified time: 2016-07-19 19:28:28
+* @Last Modified time: 2016-07-19 20:24:15
 */
 body{
     box-sizing: border-box;
@@ -20,6 +20,9 @@ section form{
 form div{
     margin: 5px 0;
     overflow: hidden;
+}
+form input{
+    width: 169px;
 }
 form #apiChoose{
     float: right;
